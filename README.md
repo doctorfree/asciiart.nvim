@@ -1,21 +1,25 @@
-<h1 align="center">image.nvim</h1>
+<h1 align="center">asciiart.nvim</h1>
 
 <p align="center">
 	<b>Image Viewer as ASCII Art for Neovim, written in Lua</b>
+	<b>Forked from <a href="https://github.com/samodostal/image.nvim">
+	    https://github.com/samodostal/image.nvim</a>)
+	</b>
+	<b>to provide integration with [Asciiville](https://github.com/doctorfree/Asciiville)</b>
 </p>
 
 <p align="center">
-    <a href="https://github.com/samodostal/image.nvim/issues">
-			<img src="https://img.shields.io/github/issues/samodostal/image.nvim" alt="Issues"/>
+    <a href="https://github.com/doctorfree/asciiart.nvim/issues">
+			<img src="https://img.shields.io/github/issues/doctorfree/asciiart.nvim" alt="Issues"/>
 		</a>
-		<a href="https://github.com/samodostal/image.nvim/stargazers">
-			<img src="https://img.shields.io/github/stars/samodostal/image.nvim" alt="Repository's starts"/>
+		<a href="https://github.com/doctorfree/asciiart.nvim/stargazers">
+			<img src="https://img.shields.io/github/stars/doctorfree/asciiart.nvim" alt="Repository's starts"/>
 		</a>
-    <a href="https://github.com/samodostal/image.nvim/blob/master/LICENSE">
-			<img src="https://img.shields.io/github/license/samodostal/image.nvim" alt="License"/>
+    <a href="https://github.com/doctorfree/asciiart.nvim/blob/master/LICENSE">
+			<img src="https://img.shields.io/github/license/doctorfree/asciiart.nvim" alt="License"/>
 		</a>
-    <a href="https://github.com/samodostal/image.nvim/commits/main">
-			<img src="https://img.shields.io/github/last-commit/samodostal/image.nvim" alt="Latest commit"/>
+    <a href="https://github.com/doctorfree/asciiart.nvim/commits/main">
+			<img src="https://img.shields.io/github/last-commit/doctorfree/asciiart.nvim" alt="Latest commit"/>
 		</a>
 </p>
 
@@ -43,7 +47,7 @@ When you open an image file (e.g. `portrait.png`), the open buffer becomes non-e
 With packer
 ```lua
 use {
-  'samodostal/image.nvim',
+  'doctorfree/asciiart.nvim',
   requires = {
     'nvim-lua/plenary.nvim'
   },
@@ -51,7 +55,7 @@ use {
 ```
 With vim.plug
 ```lua
-Plug 'samodostal/image.nvim'
+Plug 'doctorfree/asciiart.nvim'
 Plug 'nvim-lua/plenary.nvim'
 ```
 
