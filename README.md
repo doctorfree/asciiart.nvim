@@ -1,11 +1,7 @@
 <h1 align="center">asciiart.nvim</h1>
 
 <p align="center">
-	<b>Image Viewer as ASCII Art for Neovim, written in Lua</b>
-	<b>Forked from <a href="https://github.com/samodostal/image.nvim">
-	    https://github.com/samodostal/image.nvim</a>)
-	</b>
-	<b>to provide integration with [Asciiville](https://github.com/doctorfree/Asciiville)</b>
+	<b>Image Viewer as ASCII Art for Neovim, written in Lua. Forked from <a href="https://github.com/samodostal/image.nvim">https://github.com/samodostal/image.nvim</a> to provide integration with <a href="https://github.com/doctorfree/Asciiville">Asciiville</a></b>
 </p>
 
 <p align="center">
