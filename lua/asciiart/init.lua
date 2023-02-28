@@ -3,10 +3,10 @@ local M = {}
 local global_opts = nil
 
 local on_image_open = function()
-	local ui = require "image.ui"
-	local options = require "image.options"
-	local dimensions = require "image.dimensions"
-	local api = require "image.api"
+	local ui = require "asciiart.ui"
+	local options = require "asciiart.options"
+	local dimensions = require "asciiart.dimensions"
+	local api = require "asciiart.api"
 
 	local buf_id = 0
 	local buf_path = vim.api.nvim_buf_get_name(buf_id)
@@ -26,7 +26,7 @@ local on_image_open = function()
 end
 
 function M.setup(user_opts)
-	local config = require "image.config"
+	local config = require "asciiart.config"
 	local async = require "plenary.async"
 
 	user_opts = user_opts or {}
